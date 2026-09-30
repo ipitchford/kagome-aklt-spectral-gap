@@ -1,0 +1,20 @@
+{
+  "title": "A deterministic spectral-gap certificate for the spin-2 AKLT model on the kagome lattice",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "version": "0.3.1-candidate",
+  "license": "cc-zero",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Unrefereed computer-assisted proof candidate with source-bound replay. Original code MIT; original prose/data CC0. Exact finite-volume and arithmetic boundaries in ASSURANCE.md.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/kagome-aklt-spectral-gap",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "EXACT_EXPRESSIONS_WITH_DECIMAL_DISPLAYS",
+  "mu3_exact": "(73-sqrt(313))/80",
+  "gamma0_exact": "11*(2-sqrt(3))/42",
+  "uniform_gap_exact": "11*(2-sqrt(3))*(59-3*sqrt(313))/3360",
+  "mu3_decimal": "0.69135242483807334316512456036137749403637137189011476658193171631661736731038145",
+  "gamma0_decimal": "0.070177169446246423123764053415128665800693862097281264080621981572112781285790476",
+  "uniform_gap_decimal": "0.0051971299023116057713472028116150431935485409633531345210259538282043502170838906",
+  "rational_strict_lower_bound": "51/10000",
+  "rational_comparison_checker": "structural_checks.py"
+}

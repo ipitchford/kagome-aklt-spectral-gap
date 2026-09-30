@@ -1,0 +1,495 @@
+{
+  "status": "FLOATING_EXPLORATION_NOT_CERTIFIED",
+  "results": [
+    {
+      "tags": [
+        "pp",
+        "pp",
+        "pp"
+      ],
+      "N0": 11524,
+      "common": 1085,
+      "theta_estimate": 0.21771074916754207,
+      "theta2_estimate": 0.04739797030309242,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 6.22328557425791e-14,
+      "elapsed_seconds": 17.2536039352417
+    },
+    {
+      "tags": [
+        "pp",
+        "pm",
+        "pp"
+      ],
+      "N0": 8600,
+      "common": 803,
+      "theta_estimate": 0.21618601249814526,
+      "theta2_estimate": 0.04673639199984821,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 5.3026813400592796e-14,
+      "elapsed_seconds": 10.168658018112183
+    },
+    {
+      "tags": [
+        "pp",
+        "pp",
+        "mp"
+      ],
+      "N0": 3389,
+      "common": 344,
+      "theta_estimate": 0.21167271637140278,
+      "theta2_estimate": 0.04480533885604832,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 3.360682712883009e-14,
+      "elapsed_seconds": 3.5004360675811768
+    },
+    {
+      "tags": [
+        "mm",
+        "pp",
+        "pp"
+      ],
+      "N0": 1894,
+      "common": 177,
+      "theta_estimate": 0.21350557820512703,
+      "theta2_estimate": 0.04558463192470562,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 2.1769837032425095e-14,
+      "elapsed_seconds": 0.32184290885925293
+    },
+    {
+      "tags": [
+        "x",
+        "pp",
+        "pp"
+      ],
+      "N0": 10494,
+      "common": 980,
+      "theta_estimate": 0.21655593639519008,
+      "theta2_estimate": 0.04689647358799761,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 5.95837379883734e-14,
+      "elapsed_seconds": 13.90315556526184
+    },
+    {
+      "tags": [
+        "pm",
+        "pm",
+        "pp"
+      ],
+      "N0": 6454,
+      "common": 607,
+      "theta_estimate": 0.21469661924541003,
+      "theta2_estimate": 0.04609463831540857,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 4.46193077287822e-14,
+      "elapsed_seconds": 5.75409722328186
+    },
+    {
+      "tags": [
+        "pp",
+        "pm",
+        "mp"
+      ],
+      "N0": 2547,
+      "common": 256,
+      "theta_estimate": 0.2102885166403332,
+      "theta2_estimate": 0.0442212602307917,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 2.84514529487786e-14,
+      "elapsed_seconds": 2.086277961730957
+    },
+    {
+      "tags": [
+        "pm",
+        "mm",
+        "pp"
+      ],
+      "N0": 1438,
+      "common": 137,
+      "theta_estimate": 0.21207850274208753,
+      "theta2_estimate": 0.04497729132532563,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 2.0847494016392843e-14,
+      "elapsed_seconds": 0.6085410118103027
+    },
+    {
+      "tags": [
+        "x",
+        "pm",
+        "pp"
+      ],
+      "N0": 7892,
+      "common": 744,
+      "theta_estimate": 0.2150577069301123,
+      "theta2_estimate": 0.04624981731003807,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 4.619434998446002e-14,
+      "elapsed_seconds": 7.491756439208984
+    },
+    {
+      "tags": [
+        "pp",
+        "mp",
+        "mp"
+      ],
+      "N0": 1084,
+      "common": 112,
+      "theta_estimate": 0.20952876681145266,
+      "theta2_estimate": 0.0439023041215281,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 1.8605825756329963e-14,
+      "elapsed_seconds": 0.3074643611907959
+    },
+    {
+      "tags": [
+        "mm",
+        "pp",
+        "mp"
+      ],
+      "N0": 575,
+      "common": 58,
+      "theta_estimate": 0.2079424912155976,
+      "theta2_estimate": 0.04324007965294889,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 1.0779087037863132e-14,
+      "elapsed_seconds": 0.06605887413024902
+    },
+    {
+      "tags": [
+        "pp",
+        "x",
+        "mp"
+      ],
+      "N0": 3122,
+      "common": 314,
+      "theta_estimate": 0.21067190650541595,
+      "theta2_estimate": 0.044382652190626724,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 3.289679556694479e-14,
+      "elapsed_seconds": 2.655431032180786
+    },
+    {
+      "tags": [
+        "mm",
+        "mm",
+        "pp"
+      ],
+      "N0": 332,
+      "common": 33,
+      "theta_estimate": 0.2095751432533271,
+      "theta2_estimate": 0.04392174066965257,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 8.390012836988999e-15,
+      "elapsed_seconds": 0.060166120529174805
+    },
+    {
+      "tags": [
+        "x",
+        "mm",
+        "pp"
+      ],
+      "N0": 1770,
+      "common": 170,
+      "theta_estimate": 0.2124197531909396,
+      "theta2_estimate": 0.04512215154569969,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 2.12583132884634e-14,
+      "elapsed_seconds": 0.891655445098877
+    },
+    {
+      "tags": [
+        "x",
+        "x",
+        "pp"
+      ],
+      "N0": 9662,
+      "common": 914,
+      "theta_estimate": 0.2154174030281546,
+      "theta2_estimate": 0.04640465752739439,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 5.810957032157315e-14,
+      "elapsed_seconds": 11.18685793876648
+    },
+    {
+      "tags": [
+        "pm",
+        "pm",
+        "pm"
+      ],
+      "N0": 5616,
+      "common": 459,
+      "theta_estimate": 0.21058920987856103,
+      "theta2_estimate": 0.04434781531727662,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 3.890860698275845e-14,
+      "elapsed_seconds": 3.638876438140869
+    },
+    {
+      "tags": [
+        "pm",
+        "pm",
+        "mp"
+      ],
+      "N0": 1931,
+      "common": 196,
+      "theta_estimate": 0.20895086727261405,
+      "theta2_estimate": 0.04366046493397758,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 2.3104461083917034e-14,
+      "elapsed_seconds": 0.9344332218170166
+    },
+    {
+      "tags": [
+        "pm",
+        "mm",
+        "pm"
+      ],
+      "N0": 1258,
+      "common": 105,
+      "theta_estimate": 0.208152681880261,
+      "theta2_estimate": 0.04332753897394514,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 1.849326330893893e-14,
+      "elapsed_seconds": 0.41622066497802734
+    },
+    {
+      "tags": [
+        "pm",
+        "pm",
+        "x"
+      ],
+      "N0": 6350,
+      "common": 564,
+      "theta_estimate": 0.21210844566102247,
+      "theta2_estimate": 0.04498999272073492,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 4.0889790732120705e-14,
+      "elapsed_seconds": 4.835233449935913
+    },
+    {
+      "tags": [
+        "mp",
+        "pm",
+        "mp"
+      ],
+      "N0": 824,
+      "common": 84,
+      "theta_estimate": 0.20822899422494554,
+      "theta2_estimate": 0.043359314035932406,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 1.7244608194915647e-14,
+      "elapsed_seconds": 0.16296982765197754
+    },
+    {
+      "tags": [
+        "pm",
+        "mm",
+        "mp"
+      ],
+      "N0": 443,
+      "common": 46,
+      "theta_estimate": 0.2067146976048553,
+      "theta2_estimate": 0.04273096620586678,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 1.1953665619687368e-14,
+      "elapsed_seconds": 0.07173585891723633
+    },
+    {
+      "tags": [
+        "x",
+        "pm",
+        "mp"
+      ],
+      "N0": 2374,
+      "common": 242,
+      "theta_estimate": 0.20932488369715524,
+      "theta2_estimate": 0.043816906934827565,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 2.4446363026852956e-14,
+      "elapsed_seconds": 1.4793875217437744
+    },
+    {
+      "tags": [
+        "mm",
+        "mm",
+        "pm"
+      ],
+      "N0": 292,
+      "common": 25,
+      "theta_estimate": 0.2058797317787485,
+      "theta2_estimate": 0.04238646395728942,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 6.862600779237e-15,
+      "elapsed_seconds": 0.04806208610534668
+    },
+    {
+      "tags": [
+        "pm",
+        "mm",
+        "x"
+      ],
+      "N0": 1438,
+      "common": 130,
+      "theta_estimate": 0.20967083181493978,
+      "theta2_estimate": 0.043961857713968766,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 1.9395544018695504e-14,
+      "elapsed_seconds": 0.5393373966217041
+    },
+    {
+      "tags": [
+        "pm",
+        "x",
+        "x"
+      ],
+      "N0": 7788,
+      "common": 694,
+      "theta_estimate": 0.2124718156840589,
+      "theta2_estimate": 0.045144272460080695,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 4.5696030648644286e-14,
+      "elapsed_seconds": 6.865303039550781
+    },
+    {
+      "tags": [
+        "mp",
+        "mp",
+        "mp"
+      ],
+      "N0": 358,
+      "common": 38,
+      "theta_estimate": 0.20752587929829927,
+      "theta2_estimate": 0.04306699057853228,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 9.503845489926593e-15,
+      "elapsed_seconds": 0.03534841537475586
+    },
+    {
+      "tags": [
+        "mp",
+        "mm",
+        "mp"
+      ],
+      "N0": 194,
+      "common": 20,
+      "theta_estimate": 0.2060727588891049,
+      "theta2_estimate": 0.04246598195616716,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 5.69787572362122e-15,
+      "elapsed_seconds": 0.01678013801574707
+    },
+    {
+      "tags": [
+        "mp",
+        "x",
+        "mp"
+      ],
+      "N0": 1018,
+      "common": 104,
+      "theta_estimate": 0.2085875323193932,
+      "theta2_estimate": 0.043508758639093904,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 1.771690909697751e-14,
+      "elapsed_seconds": 0.2241654396057129
+    },
+    {
+      "tags": [
+        "mm",
+        "mm",
+        "mp"
+      ],
+      "N0": 109,
+      "common": 12,
+      "theta_estimate": 0.20474849933570693,
+      "theta2_estimate": 0.04192194798022398,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 4.157979913113328e-15,
+      "elapsed_seconds": 0.007837772369384766
+    },
+    {
+      "tags": [
+        "mm",
+        "x",
+        "mp"
+      ],
+      "N0": 552,
+      "common": 58,
+      "theta_estimate": 0.2070578407066162,
+      "theta2_estimate": 0.042872949398086446,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 1.2775847921767738e-14,
+      "elapsed_seconds": 0.07498979568481445
+    },
+    {
+      "tags": [
+        "x",
+        "x",
+        "mp"
+      ],
+      "N0": 2926,
+      "common": 300,
+      "theta_estimate": 0.2096960143246111,
+      "theta2_estimate": 0.0439724184236275,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 3.199270136334992e-14,
+      "elapsed_seconds": 2.254072904586792
+    },
+    {
+      "tags": [
+        "mm",
+        "mm",
+        "mm"
+      ],
+      "N0": 83,
+      "common": 7,
+      "theta_estimate": 0.1988388776021222,
+      "theta2_estimate": 0.03953689924607174,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 4.945315284163372e-15,
+      "elapsed_seconds": 0.005382061004638672
+    },
+    {
+      "tags": [
+        "mm",
+        "mm",
+        "x"
+      ],
+      "N0": 342,
+      "common": 32,
+      "theta_estimate": 0.20739939330710905,
+      "theta2_estimate": 0.04301450834415691,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 7.283492329987671e-15,
+      "elapsed_seconds": 0.04862213134765625
+    },
+    {
+      "tags": [
+        "x",
+        "mm",
+        "x"
+      ],
+      "N0": 1780,
+      "common": 162,
+      "theta_estimate": 0.2100098127981551,
+      "theta2_estimate": 0.04410412147151614,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 2.0734851357726147e-14,
+      "elapsed_seconds": 0.7288215160369873
+    },
+    {
+      "tags": [
+        "x",
+        "x",
+        "x"
+      ],
+      "N0": 9568,
+      "common": 856,
+      "theta_estimate": 0.2128337850473128,
+      "theta2_estimate": 0.045298220057565744,
+      "float_cholesky_1_16": null,
+      "common_residual_F": 5.319725263700326e-14,
+      "elapsed_seconds": 11.323930501937866
+    }
+  ]
+}

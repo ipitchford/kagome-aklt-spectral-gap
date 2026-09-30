@@ -1,0 +1,149 @@
+{
+  "release": "Evidence Press AKLT v0.3.1",
+  "date": "2026-09-30",
+  "status": "DETERMINISTIC_COMPUTER_ASSISTED_PROOF_CANDIDATE",
+  "external_specialist_verification": false,
+  "official_REF_rating": null,
+  "arithmetic_contract": "ASSURANCE.md",
+  "authoritative_full_replay": "evidence/new/replay_receipt.json",
+  "claims": [
+    {
+      "id": "ground_spaces",
+      "status": "EXACT_ANALYTIC_AND_CHECKED",
+      "claim": "Correct Schwinger normalization, injective singlet-polynomial ground maps, exact rational projectors and complete branch symmetry dimensions.",
+      "evidence": [
+        "code/certified/gram_exact.py",
+        "code/certified/rational_hub.py",
+        "evidence/new/structural_checks.json",
+        "logs/replay/rebuild_exact_tensors.log"
+      ]
+    },
+    {
+      "id": "pair_angles",
+      "status": "VALIDATED_DETERMINISTIC",
+      "claim": "All 15 required pair-sector nontrivial squared overlaps are <49/1600.",
+      "tests": 15,
+      "evidence": [
+        "evidence/new/validated_all.json",
+        "code/certified/certify_hub.py"
+      ]
+    },
+    {
+      "id": "grouped_triple_angles",
+      "status": "VALIDATED_DETERMINISTIC",
+      "claim": "All 35 required triple-sector squared intersection angles are <1/20, with the grouping specified separately on each invariant sector.",
+      "tests": 35,
+      "largest_matrix_order": 11524,
+      "evidence": [
+        "evidence/new/validated_all.json",
+        "paper/sector_table.tex"
+      ]
+    },
+    {
+      "id": "three_block_gap",
+      "status": "ANALYTIC_CONSEQUENCE_OF_VALIDATED_INPUTS",
+      "claim": "The three-block projector gap is at least (73-sqrt(313))/80 >2/3.",
+      "depends_on": [
+        "ground_spaces",
+        "pair_angles",
+        "grouped_triple_angles"
+      ],
+      "evidence": [
+        "paper/paper.pdf",
+        "evidence/new/exact_constants.json"
+      ]
+    },
+    {
+      "id": "weighted_block_gap",
+      "status": "VALIDATED_DETERMINISTIC_AND_ANALYTIC",
+      "claim": "Four block-angle tests prove squared overlap <2/3 and gamma0 >=11*(2-sqrt(3))/42.",
+      "tests": 4,
+      "largest_matrix_order": 856,
+      "evidence": [
+        "evidence/new/block_gap_validated.json",
+        "code/certified/block_gap.py",
+        "code/exact_legacy/exact_triangle.py"
+      ]
+    },
+    {
+      "id": "uniform_kagome_gap",
+      "status": "ANALYTIC_CONSEQUENCE_OF_FULL_VALIDATION",
+      "claim": "gap(H) >=11*(2-sqrt(3))*(59-3*sqrt(313))/3360 >51/10000, with total-spin-four edge projectors.",
+      "scope": "Every rectangular kagome torus m,n>=3 and every nonempty finite union of complete down-star edge sets. Not arbitrary induced open patches.",
+      "depends_on": [
+        "three_block_gap",
+        "weighted_block_gap",
+        "ground_spaces"
+      ],
+      "evidence": [
+        "paper/paper.pdf",
+        "evidence/new/structural_checks.json",
+        "evidence/new/exact_constants.json"
+      ]
+    },
+    {
+      "id": "star_minimum",
+      "status": "EXACT_INTEGER_AND_ANALYTIC",
+      "claim": "Five-spin star gap (43-3*sqrt(193))/28; independently constructed threshold-matrix inertia (336,45,0) and exact kernel count44.",
+      "evidence": [
+        "evidence/new/star_inertia.json",
+        "code/certified/star_inertia.py",
+        "code/certified/inertia.cpp",
+        "code/exact_legacy/exact_star.py"
+      ]
+    },
+    {
+      "id": "bowtie_overlap",
+      "status": "EXACT_RATIONAL_AND_ANALYTIC",
+      "claim": "Elementary triangle bowtie overlap (47+sqrt(4417))/138; complete highest-weight blocks and rational Sturm ordering.",
+      "evidence": [
+        "evidence/new/bowtie_certified.json",
+        "code/certified/bowtie_certified.py"
+      ]
+    },
+    {
+      "id": "square_cross_obstruction",
+      "status": "EXACT_ANALYTIC_AND_CHECKED",
+      "claim": "Restricted minimal-cross density obstruction after removing disjoint-edge products, not a square-lattice gap theorem.",
+      "evidence": [
+        "paper/paper.pdf",
+        "code/exact_legacy/exact_cross.py",
+        "logs/replay/exact_cross.log"
+      ]
+    },
+    {
+      "id": "validator_negative_controls",
+      "status": "EXECUTED_INTERNAL_ADVERSARIAL_CHECKS",
+      "claim": "Rejects indefinite, asymmetric, insufficient-rank, fake-Cholesky and overstrong-threshold cases; all-rational 83-dimensional cross-check accepts1/20 and rejects3/100.",
+      "external_review": false,
+      "evidence": [
+        "evidence/new/validator_tests.json",
+        "code/certified/validator_tests.py"
+      ]
+    },
+    {
+      "id": "floating_exploration",
+      "status": "EXPLORATORY_NOT_CERTIFICATION",
+      "claim": "Separately assembled orthonormal-tensor calculations of all35 sectors suggest maximum overlap near0.217711.",
+      "proof_dependency": false,
+      "evidence": [
+        "exploratory/symmetry_angles.json",
+        "exploratory/README.md"
+      ]
+    }
+  ],
+  "not_claimed": [
+    "The former 0.0407 lower bound.",
+    "An implementation-level probability of truth or exceptional-random-start guarantee.",
+    "A replay of the original 106935090-dimensional random filter.",
+    "A single global fixed pair grouping satisfies the tested triple bound without additional ordered tests.",
+    "An exact spectral equivalence between the original three-block matrix and the smaller sufficient tests.",
+    "A square-lattice spectral gap.",
+    "A gap for arbitrary induced open patches.",
+    "Local topological quantum order or perturbative stability.",
+    "External full replication, proof-assistant formalization, worldwide priority or a guaranteed REF four-star rating."
+  ],
+  "doi": "10.5281/zenodo.23070704",
+  "repository": "https://github.com/ipitchford/kagome-aklt-spectral-gap",
+  "tag": "v0.3.1-candidate"
+}

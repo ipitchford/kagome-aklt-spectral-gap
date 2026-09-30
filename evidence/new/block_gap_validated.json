@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "status": "PASS",
+      "dimension": 856,
+      "shift": 4.76837158203125e-07,
+      "target_error_bound": 8.198862896954103e-09,
+      "shift_roundoff_bound": 9.825960620852376e-15,
+      "residual_center_infinity_upper": 3.706882207416721e-14,
+      "residual_roundoff_upper": 7.216656815380978e-09,
+      "residual_total_upper": 7.2166938842030525e-09,
+      "total_error_upper": 1.541556660711778e-08,
+      "positive_margin_lower": 4.614215915960072e-07,
+      "max_factor_row_energy_upper": 22.12609534165647,
+      "method": "all-entry residual; rank-lift; exact-rational tensor input",
+      "mode": "nine_site_block_angle",
+      "tags": [
+        "p",
+        "p",
+        "p"
+      ],
+      "threshold_squared": "2/3",
+      "known_common_dimension": 38,
+      "rank_lift_columns": 38,
+      "overlap_squared_estimate_not_used_in_acceptance": 0.6428493546260682,
+      "elapsed_seconds": 0.416903018951416
+    },
+    {
+      "status": "PASS",
+      "dimension": 462,
+      "shift": 1.1920928955078125e-07,
+      "target_error_bound": 3.387109877474024e-09,
+      "shift_roundoff_bound": 8.701726689738797e-15,
+      "residual_center_infinity_upper": 2.4978753222122665e-14,
+      "residual_roundoff_upper": 1.865371724378514e-09,
+      "residual_total_upper": 1.8653967031317364e-09,
+      "total_error_upper": 5.252515282332451e-09,
+      "positive_margin_lower": 1.1395677426844878e-07,
+      "max_factor_row_energy_upper": 19.594546300283238,
+      "method": "all-entry residual; rank-lift; exact-rational tensor input",
+      "mode": "nine_site_block_angle",
+      "tags": [
+        "p",
+        "p",
+        "m"
+      ],
+      "threshold_squared": "2/3",
+      "known_common_dimension": 20,
+      "rank_lift_columns": 20,
+      "overlap_squared_estimate_not_used_in_acceptance": 0.6368042871116076,
+      "elapsed_seconds": 0.15254926681518555
+    },
+    {
+      "status": "PASS",
+      "dimension": 252,
+      "shift": 5.960464477539063e-08,
+      "target_error_bound": 1.5980200706927602e-09,
+      "shift_roundoff_bound": 9.653046369095826e-15,
+      "residual_center_infinity_upper": 1.4823625282248172e-14,
+      "residual_roundoff_upper": 6.178721886180095e-10,
+      "residual_total_upper": 6.178870122432918e-10,
+      "total_error_upper": 2.2159167359824217e-09,
+      "positive_margin_lower": 5.73887280394082e-08,
+      "max_factor_row_energy_upper": 21.736727896220614,
+      "method": "all-entry residual; rank-lift; exact-rational tensor input",
+      "mode": "nine_site_block_angle",
+      "tags": [
+        "p",
+        "m",
+        "m"
+      ],
+      "threshold_squared": "2/3",
+      "known_common_dimension": 12,
+      "rank_lift_columns": 12,
+      "overlap_squared_estimate_not_used_in_acceptance": 0.6123146645872047,
+      "elapsed_seconds": 0.04264497756958008
+    },
+    {
+      "status": "PASS",
+      "dimension": 141,
+      "shift": 1.4901161193847656e-08,
+      "target_error_bound": 6.703192234399356e-10,
+      "shift_roundoff_bound": 8.484844709230257e-15,
+      "residual_center_infinity_upper": 8.85542622574915e-15,
+      "residual_roundoff_upper": 1.7107992360724219e-10,
+      "residual_total_upper": 1.7108877903346796e-10,
+      "total_error_upper": 8.414164873181129e-10,
+      "positive_margin_lower": 1.4059744706529542e-08,
+      "max_factor_row_energy_upper": 19.106171705593027,
+      "method": "all-entry residual; rank-lift; exact-rational tensor input",
+      "mode": "nine_site_block_angle",
+      "tags": [
+        "m",
+        "m",
+        "m"
+      ],
+      "threshold_squared": "2/3",
+      "known_common_dimension": 7,
+      "rank_lift_columns": 7,
+      "overlap_squared_estimate_not_used_in_acceptance": 0.5333205514808365,
+      "elapsed_seconds": 0.015161275863647461
+    }
+  ]
+}

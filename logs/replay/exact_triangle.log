@@ -1,0 +1,119 @@
+{
+  "F_diagonal_entries": [
+    "0",
+    "1/6",
+    "16/69"
+  ],
+  "basis": "b_k=sqrt(binomial(4,k))|m=2-k>; operator D^-1 h D; physical vector D*x; Gram W=D^2",
+  "common_range_dimension": 0,
+  "denominator": "864",
+  "eta_squared_lower_bound": "55/414",
+  "negative_controls": {
+    "corrupted_projector_rejected": true,
+    "corrupted_ratio_rejected": true
+  },
+  "numerator": "2640/23",
+  "ranks": [
+    15,
+    15
+  ],
+  "rayleigh_ratio": "55/414",
+  "scope": "triangle-cover obstruction only; no thermodynamic gap proved",
+  "sector_dimension": 121,
+  "sector_total_down": 5,
+  "sector_total_magnetization": 5,
+  "status": "exact_rational_verification_passed",
+  "strict_obstruction_difference": "1/46",
+  "threshold_squared": "1/9",
+  "tiny_Gram_matrix": [
+    [
+      "16704",
+      "-3168",
+      "-3168"
+    ],
+    [
+      "-3168",
+      "16704",
+      "-3168"
+    ],
+    [
+      "-3168",
+      "-3168",
+      "16704"
+    ]
+  ],
+  "triangle_gap": "11/14",
+  "triangle_spectrum": {
+    "0": 27,
+    "10/7": 9,
+    "11/14": 18,
+    "15/14": 14,
+    "3": 13,
+    "3/2": 22,
+    "36/35": 5,
+    "6/7": 7,
+    "69/70": 10
+  },
+  "witness_nonzero": [
+    {
+      "coefficient": "1",
+      "state": [
+        0,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "-1",
+      "state": [
+        0,
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "-1",
+      "state": [
+        1,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "1",
+      "state": [
+        1,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "1",
+      "state": [
+        2,
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "coefficient": "-1",
+      "state": [
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    }
+  ]
+}

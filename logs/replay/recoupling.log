@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "sharp eta=1/2 for two adjacent spin-2 maximal-spin projectors",
+  "sympy_version": "1.14.0",
+  "signed_9_times_6j": {
+    "2": "1/70",
+    "3": "-1/14",
+    "4": "3/14",
+    "5": "-1/2",
+    "6": "1"
+  },
+  "optimal_eta": "1/2",
+  "bound_operator_eigenvalues_on_nontrivial_blocks": {
+    "2": [
+      "1173/2450",
+      "639/1225"
+    ],
+    "3": [
+      "39/98",
+      "30/49"
+    ],
+    "4": [
+      "11/49",
+      "85/98"
+    ],
+    "5": [
+      "0",
+      "3/2"
+    ]
+  },
+  "J5_sum_eigenvalue": "1/2",
+  "J5_anticommutator_eigenvalue": "-1/4",
+  "corrupted_entry_negative_control": "rejected",
+  "lattice_implication": "edgewise scalar estimate on degree-four graph yields only H^2 >= -2 H"
+}

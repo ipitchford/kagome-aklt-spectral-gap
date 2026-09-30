@@ -1,0 +1,20 @@
+{
+  "recordedAt": "2026-09-30T21:12:40.225321+00:00",
+  "inputs": [
+    {
+      "name": "evidence_press_aklt_v0.3_2026-09-30.zip",
+      "sha256": "45b565ea593143f451c526c44115971a927515e9a14d19addb6931bec582681b",
+      "publicRedistribution": false
+    },
+    {
+      "name": "aklt_v03_referee_audit_2026-09-30.zip",
+      "sha256": "f30c188a6883c4cbbf900dee2231f66420a6e661a78025426d2d31943d7dc4e5",
+      "publicRedistribution": false
+    },
+    {
+      "name": "Pasted text.txt",
+      "sha256": "45cdad0b200d17ea9ca1faaa6fa36a11e1e89f1739b676a0b4bcc0ddde01b420",
+      "publicRedistribution": false
+    }
+  ]
+}

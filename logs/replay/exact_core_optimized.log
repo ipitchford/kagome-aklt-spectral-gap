@@ -1,0 +1,101 @@
+{
+  "claim_ceiling": "exact local identities and finite patch counting only; no uniform gap proved",
+  "projector": {
+    "dimension": 25,
+    "rank": 9,
+    "polynomial_denominator": 2520,
+    "idempotent": true,
+    "metric_self_adjoint": true,
+    "independent_constructions_agree": true
+  },
+  "patches": [
+    {
+      "N": 4,
+      "a": "7/5",
+      "sites": 32,
+      "edges": 40,
+      "f": "112/5",
+      "g": "536/25",
+      "threshold": "27/140",
+      "adjacent_classes": 6,
+      "disjoint_classes": 120,
+      "maximum_disjoint_weight": "507/25"
+    },
+    {
+      "N": 5,
+      "a": "7/5",
+      "sites": 45,
+      "edges": 60,
+      "f": "174/5",
+      "g": "901/25",
+      "threshold": "137/870",
+      "adjacent_classes": 6,
+      "disjoint_classes": 192,
+      "maximum_disjoint_weight": "872/25"
+    },
+    {
+      "N": 6,
+      "a": "7/5",
+      "sites": 60,
+      "edges": 84,
+      "f": "50",
+      "g": "1364/25",
+      "threshold": "83/625",
+      "adjacent_classes": 6,
+      "disjoint_classes": 280,
+      "maximum_disjoint_weight": "267/5"
+    },
+    {
+      "N": 7,
+      "a": "7/5",
+      "sites": 77,
+      "edges": 112,
+      "f": "68",
+      "g": "77",
+      "threshold": "39/340",
+      "adjacent_classes": 6,
+      "disjoint_classes": 384,
+      "maximum_disjoint_weight": "1896/25"
+    },
+    {
+      "N": 8,
+      "a": "7/5",
+      "sites": 96,
+      "edges": 144,
+      "f": "444/5",
+      "g": "2584/25",
+      "threshold": "56/555",
+      "adjacent_classes": 6,
+      "disjoint_classes": 504,
+      "maximum_disjoint_weight": "511/5"
+    },
+    {
+      "N": 9,
+      "a": "7/5",
+      "sites": 117,
+      "edges": 180,
+      "f": "562/5",
+      "g": "3341/25",
+      "threshold": "253/2810",
+      "adjacent_classes": 6,
+      "disjoint_classes": 640,
+      "maximum_disjoint_weight": "3312/25"
+    },
+    {
+      "N": 10,
+      "a": "7/5",
+      "sites": 140,
+      "edges": 220,
+      "f": "694/5",
+      "g": "4196/25",
+      "threshold": "141/1735",
+      "adjacent_classes": 6,
+      "disjoint_classes": 792,
+      "maximum_disjoint_weight": "4167/25"
+    }
+  ],
+  "negative_controls": [
+    "corrupt_adjacent_coefficient",
+    "wrong_projector_normalization"
+  ]
+}

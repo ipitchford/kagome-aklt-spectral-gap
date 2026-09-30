@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this exact unrefereed candidate version."
+title: "A deterministic spectral-gap certificate for the spin-2 AKLT model on the kagome lattice"
+authors:
+  - name: Anonymous
+version: 0.3.1-candidate
+date-released: 2026-09-30
+doi: 10.5281/zenodo.23070704
+url: https://github.com/ipitchford/kagome-aklt-spectral-gap
+license: CC0-1.0

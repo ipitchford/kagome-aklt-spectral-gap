@@ -1,0 +1,135 @@
+{
+  "status": "PASS_FULL",
+  "full": true,
+  "steps": [
+    {
+      "step": "compile_exact_inertia",
+      "returncode": 0,
+      "elapsed_seconds": 0.6558670997619629
+    },
+    {
+      "step": "rebuild_exact_tensors",
+      "returncode": 0,
+      "elapsed_seconds": 67.73635792732239
+    },
+    {
+      "step": "all_50_angles",
+      "returncode": 0,
+      "elapsed_seconds": 257.2506730556488
+    },
+    {
+      "step": "block_gap",
+      "returncode": 0,
+      "elapsed_seconds": 2.8036842346191406
+    },
+    {
+      "step": "star_inertia",
+      "returncode": 0,
+      "elapsed_seconds": 15.18018102645874
+    },
+    {
+      "step": "bowtie_exact",
+      "returncode": 0,
+      "elapsed_seconds": 4.661503791809082
+    },
+    {
+      "step": "structure_and_geometry",
+      "returncode": 0,
+      "elapsed_seconds": 2.147768974304199
+    },
+    {
+      "step": "validator_adversarial_tests",
+      "returncode": 0,
+      "elapsed_seconds": 15.942131996154785
+    },
+    {
+      "step": "validator_adversarial_tests_optimized",
+      "returncode": 0,
+      "elapsed_seconds": 15.377181053161621
+    },
+    {
+      "step": "exact_core",
+      "returncode": 0,
+      "elapsed_seconds": 0.507282018661499
+    },
+    {
+      "step": "exact_core_optimized",
+      "returncode": 0,
+      "elapsed_seconds": 0.48414111137390137
+    },
+    {
+      "step": "exact_star",
+      "returncode": 0,
+      "elapsed_seconds": 0.30936098098754883
+    },
+    {
+      "step": "exact_star_optimized",
+      "returncode": 0,
+      "elapsed_seconds": 0.32663989067077637
+    },
+    {
+      "step": "exact_triangle",
+      "returncode": 0,
+      "elapsed_seconds": 0.47173404693603516
+    },
+    {
+      "step": "exact_triangle_optimized",
+      "returncode": 0,
+      "elapsed_seconds": 0.46781420707702637
+    },
+    {
+      "step": "exact_cross",
+      "returncode": 0,
+      "elapsed_seconds": 0.03164505958557129
+    },
+    {
+      "step": "exact_cross_optimized",
+      "returncode": 0,
+      "elapsed_seconds": 0.02874612808227539
+    },
+    {
+      "step": "recoupling",
+      "returncode": 0,
+      "elapsed_seconds": 0.27800917625427246
+    },
+    {
+      "step": "recoupling_optimized",
+      "returncode": 0,
+      "elapsed_seconds": 0.298541784286499
+    },
+    {
+      "step": "environment",
+      "returncode": 0,
+      "elapsed_seconds": 0.2901003360748291
+    }
+  ],
+  "elapsed_seconds": 385.28892493247986,
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "PYTHONHASHSEED": "0"
+  },
+  "source_sha256": {
+    "code/certified/block_gap.py": "1d4dec405edabacb751105a1f37ae3837332d3aec9972882bc6ef7d8be4b4ec5",
+    "code/certified/bowtie_certified.py": "8198bb762ceb0f6d9bd910a942fee67febcf943004d5886e4804fb5e4a18fb0a",
+    "code/certified/certify_hub.py": "3a5180845e642b7e44767540e31fc5791be10d800d55ced91b18db56f6b21b7c",
+    "code/certified/gram_exact.py": "76ab425f92cda9439609c141ecf24e7f51353733faaade250a96dfbd066bf3ab",
+    "code/certified/inertia.cpp": "74d35b06b47d45da4f22937b59831f394a1f69944bf1b672570b54eb52bd778e",
+    "code/certified/paths.py": "e0fd8704e9dd2ea4e94aed36d283106f2bdfe815928b15f98aa170b4afd623b1",
+    "code/certified/rational_hub.py": "19d6f2aedb889d1ff0bdd11f87ecddd357a5753158dcffc894674a3584eb6583",
+    "code/certified/run_validated_all.py": "1d4bab677ba275afa9f46dc30d2efcc208c61299b1fd2e0a43051ddc542d7378",
+    "code/certified/star_inertia.py": "38e95540d7444ef1f9068c3915fefdf1528a34d7953c7802a6cb2fbd7921abe8",
+    "code/certified/structural_checks.py": "7d424c5dd2c8f5f8dee9b7f6f57c1a8bd3eb0307902b214e81ad69e46d52f7e8",
+    "code/certified/validated.py": "cf0c05bfa6fb3fc97fe9a13d57e3ee1f7d95262de1bb35ce4c059ebca71aa47f",
+    "code/certified/validator_tests.py": "0aa97091aa4995e4467f075b76fff996235f007f09fa10adc7cdb89438b5d747",
+    "code/exact_legacy/exact_core.py": "d85c8b10abe9a6f5ad13e39b3adf7cd6cfec26913df27578871dc373b1d36c34",
+    "code/exact_legacy/exact_cross.py": "1cfaab519e4e1910d69f9cd5373075903e83eb64fe73ddd733381892eeaa78f2",
+    "code/exact_legacy/exact_star.py": "f6478d80bdeee0adc7fee538fff394e165d75f8ea1c244c8d44ddfdab906202b",
+    "code/exact_legacy/exact_triangle.py": "ef0de9c04f6e47ad68b26bcc1dfc016ddb1967c6703a685c04aee8409acd9b6f",
+    "code/exact_legacy/recoupling.py": "6b686ec41e06ac840d99145ccca5e11c8940a47540d9672a1a0b2c93de719123",
+    "code/replay.py": "6130ca5848d1c392dec58a96575d8a376deb2e89fdfd1e58aa935801a8ff0167"
+  }
+}

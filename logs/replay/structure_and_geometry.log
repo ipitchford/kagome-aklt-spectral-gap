@@ -1,0 +1,284 @@
+{
+  "status": "PASS",
+  "normalization_counterexample_rejected": true,
+  "triangle_rank": 27,
+  "D8_private_dimensions": {
+    "pp": 78,
+    "pm": 66,
+    "mp": 21,
+    "mm": 15,
+    "x": 72,
+    "y": 72
+  },
+  "D8_external_dimensions": {
+    "pp": 21,
+    "pm": 15,
+    "mp": 6,
+    "mm": 3,
+    "x": 18,
+    "y": 18
+  },
+  "full_localized_Mz0_dimension": 106935090,
+  "pair_compressed_Mz0_dimension": 34606,
+  "pair_common_Mz0_dimension": 3139,
+  "triple_compressed_Mz0_dimension": 829168,
+  "triple_common_Mz0_dimension": 73789,
+  "rectangular_tori": [
+    {
+      "m": 3,
+      "n": 3,
+      "ok": true,
+      "sites": 27,
+      "edges": 54
+    },
+    {
+      "m": 3,
+      "n": 4,
+      "ok": true,
+      "sites": 36,
+      "edges": 72
+    },
+    {
+      "m": 3,
+      "n": 5,
+      "ok": true,
+      "sites": 45,
+      "edges": 90
+    },
+    {
+      "m": 3,
+      "n": 6,
+      "ok": true,
+      "sites": 54,
+      "edges": 108
+    },
+    {
+      "m": 3,
+      "n": 7,
+      "ok": true,
+      "sites": 63,
+      "edges": 126
+    },
+    {
+      "m": 3,
+      "n": 8,
+      "ok": true,
+      "sites": 72,
+      "edges": 144
+    },
+    {
+      "m": 4,
+      "n": 3,
+      "ok": true,
+      "sites": 36,
+      "edges": 72
+    },
+    {
+      "m": 4,
+      "n": 4,
+      "ok": true,
+      "sites": 48,
+      "edges": 96
+    },
+    {
+      "m": 4,
+      "n": 5,
+      "ok": true,
+      "sites": 60,
+      "edges": 120
+    },
+    {
+      "m": 4,
+      "n": 6,
+      "ok": true,
+      "sites": 72,
+      "edges": 144
+    },
+    {
+      "m": 4,
+      "n": 7,
+      "ok": true,
+      "sites": 84,
+      "edges": 168
+    },
+    {
+      "m": 4,
+      "n": 8,
+      "ok": true,
+      "sites": 96,
+      "edges": 192
+    },
+    {
+      "m": 5,
+      "n": 3,
+      "ok": true,
+      "sites": 45,
+      "edges": 90
+    },
+    {
+      "m": 5,
+      "n": 4,
+      "ok": true,
+      "sites": 60,
+      "edges": 120
+    },
+    {
+      "m": 5,
+      "n": 5,
+      "ok": true,
+      "sites": 75,
+      "edges": 150
+    },
+    {
+      "m": 5,
+      "n": 6,
+      "ok": true,
+      "sites": 90,
+      "edges": 180
+    },
+    {
+      "m": 5,
+      "n": 7,
+      "ok": true,
+      "sites": 105,
+      "edges": 210
+    },
+    {
+      "m": 5,
+      "n": 8,
+      "ok": true,
+      "sites": 120,
+      "edges": 240
+    },
+    {
+      "m": 6,
+      "n": 3,
+      "ok": true,
+      "sites": 54,
+      "edges": 108
+    },
+    {
+      "m": 6,
+      "n": 4,
+      "ok": true,
+      "sites": 72,
+      "edges": 144
+    },
+    {
+      "m": 6,
+      "n": 5,
+      "ok": true,
+      "sites": 90,
+      "edges": 180
+    },
+    {
+      "m": 6,
+      "n": 6,
+      "ok": true,
+      "sites": 108,
+      "edges": 216
+    },
+    {
+      "m": 6,
+      "n": 7,
+      "ok": true,
+      "sites": 126,
+      "edges": 252
+    },
+    {
+      "m": 6,
+      "n": 8,
+      "ok": true,
+      "sites": 144,
+      "edges": 288
+    },
+    {
+      "m": 7,
+      "n": 3,
+      "ok": true,
+      "sites": 63,
+      "edges": 126
+    },
+    {
+      "m": 7,
+      "n": 4,
+      "ok": true,
+      "sites": 84,
+      "edges": 168
+    },
+    {
+      "m": 7,
+      "n": 5,
+      "ok": true,
+      "sites": 105,
+      "edges": 210
+    },
+    {
+      "m": 7,
+      "n": 6,
+      "ok": true,
+      "sites": 126,
+      "edges": 252
+    },
+    {
+      "m": 7,
+      "n": 7,
+      "ok": true,
+      "sites": 147,
+      "edges": 294
+    },
+    {
+      "m": 7,
+      "n": 8,
+      "ok": true,
+      "sites": 168,
+      "edges": 336
+    },
+    {
+      "m": 8,
+      "n": 3,
+      "ok": true,
+      "sites": 72,
+      "edges": 144
+    },
+    {
+      "m": 8,
+      "n": 4,
+      "ok": true,
+      "sites": 96,
+      "edges": 192
+    },
+    {
+      "m": 8,
+      "n": 5,
+      "ok": true,
+      "sites": 120,
+      "edges": 240
+    },
+    {
+      "m": 8,
+      "n": 6,
+      "ok": true,
+      "sites": 144,
+      "edges": 288
+    },
+    {
+      "m": 8,
+      "n": 7,
+      "ok": true,
+      "sites": 168,
+      "edges": 336
+    },
+    {
+      "m": 8,
+      "n": 8,
+      "ok": true,
+      "sites": 192,
+      "edges": 384
+    }
+  ],
+  "patches_checked": 511,
+  "gap_exact": "11*(2-sqrt(3))*(59-3*sqrt(313))/3360",
+  "gap_strict_rational_lower": "51/10000",
+  "limits": "finite geometry checks corroborate the general counting proof; they do not replace it"
+}
